@@ -1,6 +1,6 @@
 services:
   node-app-server:
-    image: ghcr.io/anton3078/320_os_github_actions/node-app:latest
+    image: ghrc.io/anton3078/320_os_github_actions/node-app:latest
     container_name: node
     restart: unless-stopped
     ports:
