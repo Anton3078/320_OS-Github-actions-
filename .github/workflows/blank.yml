@@ -40,7 +40,7 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
       -
         name: build docker
-        run: docker build -t ghrc.io/anton3078/320_os_github_actions/node-app:latest .
+        run: docker build -t ghcr.io/anton3078/320_os_github_actions/node-app:latest .
       -
        name: Push
-       run: docker push ghrc.io/anton3078/320_os_github_actions/node-app:latest
+       run: docker push ghcr.io/anton3078/320_os_github_actions/node-app:latest
